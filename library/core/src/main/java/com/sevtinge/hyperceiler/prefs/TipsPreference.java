@@ -72,7 +72,7 @@ public class TipsPreference extends Preference {
 
     public void updateTips() {
         getRandomTipAsync(mContext, getLanguage(), tip -> {
-            setSummary("Tip: " + tip);
+            setSummary("İpucu: " + tip);
         });
     }
 

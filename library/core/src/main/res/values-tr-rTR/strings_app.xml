@@ -50,11 +50,11 @@
     <string name="set_homepage_entrance_about">Not: Bu ayarın değiştirilmesi yalnızca özelliğin ana sayfadaki görünürlüğünü gizler ve açık olan özellikler kapatılmaz.\nÖzelliğin ana sayfada gizlenmesi hemen etkili olur ve yeniden görünmesi için uygulamanın yeniden başlatılması gerekir.</string>
     <string name="help_cant_see_apps_guide">Uygulama özelliklerini bulamıyor musunuz?</string>
     <string name="help_cant_see_apps_title">Ana ekranda uygulama özelliklerini bulamıyor musunuz?</string>
-    <string name="help_cant_see_apps_desc">Ana sayfanın sadeliğini ve işlevselliğini korumak için, aşağıdaki uygulama özelliklerine erişimi gizledik:\n\n - Şu anda devre dışı veya gizli olanlar\n - Cihazınızda bulunmayanlar\n - Sistemin veya uygulamanın geçerli sürümüyle uyumlu olmayanlar\n - Kapsamlı olarak seçilmemiş olanlar\n\nLütfen yukarıdaki bilgilere göre sorun giderin, HyperCeiler\'ı yeniden başlatın ve tekrar deneyin. Uygulama özelliklerini hala bulamıyorsanız, bu bir hata yada böcek olabilir. Lütfen bize zamanında ve etkili geri bildirim sağlayın.\n\nŞu anda gizli uygulama özellikleri:</string>
+    <string name="help_cant_see_apps_desc">Ana sayfanın sadeliğini ve işlevselliğini korumak için, aşağıdaki uygulama özelliklerine erişimi gizledik:\n\n - Şu anda devre dışı veya gizli olanlar\n - Cihazınızda bulunmayanlar\n - Sistemin veya uygulamanın geçerli sürümüyle uyumlu olmayanlar\n - Kapsamlı olarak seçilmemiş olanlar\n\nLütfen yukarıdaki bilgilere göre sorun giderin, HyperCeiler\'ı yeniden başlatın ve tekrar deneyin. Uygulama özelliklerini hala bulamıyorsanız, bu bir hata olabilir. Lütfen bize zamanında ve etkili geri bildirim sağlayın.\n\nŞu anda gizli uygulama özellikleri:</string>
     <string name="help_cant_see_apps_uninstall">Kaldırılmış uygulamalar:\n</string>
     <string name="help_cant_see_apps_disable">Devre dışı veya gizli uygulamalar:\n</string>
     <string name="help_cant_see_apps_scope">Kapsamlı olarak seçilmedi:\n</string>
-    <string name="help_cant_see_apps_desc_no_hidden">Ana sayfanın sadeliğini ve işlevselliğini korumak için, aşağıdaki uygulama özelliklerine erişimi gizledik:\n\n - Şu anda devre dışı veya gizli olanlar\n - Cihazınızda bulunmayanlar\n - Sistemin veya uygulamanın geçerli sürümüyle uyumlu olmayanlar\n - Kapsamlı olarak seçilmemiş olanlar\n\nLütfen yukarıdaki bilgilere göre sorun giderin, HyperCeiler\'ı yeniden başlatın ve tekrar deneyin. Uygulama özelliklerini hala bulamıyorsanız, bu bir hata yada böcek olabilir. Lütfen bize zamanında ve etkili geri bildirim sağlayın.\n\nŞu anda gizli özellik yok!</string>
+    <string name="help_cant_see_apps_desc_no_hidden">Ana sayfanın sadeliğini ve işlevselliğini korumak için, aşağıdaki uygulama özelliklerine erişimi gizledik:\n\n - Şu anda devre dışı veya gizli olanlar\n - Cihazınızda bulunmayanlar\n - Sistemin veya uygulamanın geçerli sürümüyle uyumlu olmayanlar\n - Kapsamlı olarak seçilmemiş olanlar\n\nLütfen yukarıdaki bilgilere göre sorun giderin, HyperCeiler\'ı yeniden başlatın ve tekrar deneyin. Uygulama özelliklerini hala bulamıyorsanız, bu bir hata olabilir. Lütfen bize zamanında ve etkili geri bildirim sağlayın.\n\nŞu anda gizli özellik yok!</string>
     <string name="help_cant_see_apps_switch">Ana sayfada bu yardımı gizle</string>
     <string name="help_cant_see_apps_switch_desc">Bu sayfayı Hakkında &gt; Yardım bölümünden bulabilirsiniz. Uygulamak için uygulamayı yeniden başlatın.</string>
     <string name="help_support_version_title">Geçerli uygulama sürümü destek sistemi versiyon listesi</string>
@@ -216,7 +216,7 @@
     <string name="model">Model</string>
     <string name="device">Cihaz</string>
     <string name="manufacturer">Üretici</string>
-    <string name="search">aramak</string>
+    <string name="search">Ara</string>
     <string name="save_to_screen_title">Kaydetme konumunu belirle</string>
     <string name="only_new_version_can_do">Yalnızca daha yeni sürümler desteklenir</string>
     <string name="use_hyper_blur">Gelişmiş dokular kullan</string>
@@ -253,7 +253,7 @@
     <string name="array_global_actions_launch_choose">Uygulamayı seç</string>
     <string name="array_global_actions_shortcut">Kısayolu başlat</string>
     <string name="array_global_actions_activity">Etkinliği başlat</string>
-    <string name="array_global_actions_toggle">Geçiş fonksiyonu</string>
+    <string name="array_global_actions_toggle">Aç/kapat işlevi</string>
     <string name="array_global_actions_back">Önceki uygulamaya geç</string>
     <string name="array_global_actions_forceclose">Geçerli uygulamayı kapatmaya zorla</string>
     <string name="array_global_actions_powermenu">Güç menüsünü açın</string>
@@ -403,7 +403,7 @@
     <string name="system_framework_disable_verify_can_ve_disabled">Devre dışı bırakılabileceğini doğrulamak için devre dışı bırakın</string>
     <string name="system_framework_allow_all_dark_mode">Tüm uygulamaların Karanlık modunu kullanmasına izin ver</string>
     <string name="system_framework_background_blur_supported">Gelişmiş dokuları zorla etkinleştir</string>
-    <string name="system_framework_background_blur_toast">Gelişmiş dokular tost</string>
+    <string name="system_framework_background_blur_toast">Gelişmiş dokular bildirimi</string>
     <string name="system_framework_background_blur_supported_more">Bu özellik açıldığında sistem ayarlarında Gelişmiş dokular seçeneğini kontrol edin, aksi takdirde sistemin iki kez yeniden başlatılması gerekebilir.</string>
     <string name="system_framework_disablt_miuilite_check">MIUI Lite Kontrolünü Devre Dışı Bırak</string>
     <string name="system_framework_posted_clipboard">Klasörü panodan gizle</string>
@@ -1059,7 +1059,7 @@
     <string name="home_other_blur_radius">Bulanıklık Yarıçapı</string>
     <string name="home_large_icon_corner_radius">Köşeleri yuvarlatılmış büyük simgeler</string>
     <string name="home_other_app_icon_hide">Masaüstü kısayol yönetimi</string>
-    <string name="home_other_toast_slide_again">\"Tekrar kaydır\" tostunu devre dışı bırak</string>
+    <string name="home_other_toast_slide_again">\"Tekrar kaydır\" uyarısını kapat</string>
     <string name="home_other_shortcut_remove_restrictions">Kısayollardaki kısıtlamaları kaldırın</string>
     <string name="home_other_shortcut_background_blur_custom">Kısayol menüsü bulanıklık değeri</string>
     <string name="home_other_high_models">Üst düzey bir model olarak zorunlu tanınma</string>
@@ -1174,7 +1174,7 @@
     <string name="security_center_no_permission">Gerekli izinler verilmedi</string>
     <string name="security_center_unlock_side_hide_freeform">Serbest formun yan gizlemesinin kilidini aç</string>
     <string name="security_center_unlock_side_hide_freeform_desc">Düşük destekli ancak kısıtlı cihazlar için yandan gizleme serbest formunun kilidini açın. Bu, telefon arka planı kestiğinde widget\'ın davranışını da etkileyecektir</string>
-    <string name="security_center_unlock_smart_charge_title">Komple şarj ve batarya fonksiyonları</string>
+    <string name="security_center_unlock_smart_charge_title">Tüm şarj ve pil işlevleri</string>
     <string name="security_center_super_wireless_charge">Süper kablosuz şarj cihazının kilidini açın</string>
     <string name="security_center_blur_model">Kenar çubuğu bulanıklaştırma modeli</string>
     <string name="security_center_blurradius">Kenar çubuğu bulanıklığı değeri</string>

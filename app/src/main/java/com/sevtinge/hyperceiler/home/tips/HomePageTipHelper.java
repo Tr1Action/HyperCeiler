@@ -29,10 +29,10 @@ public class HomePageTipHelper {
             String currentLang = AppLanguageHelper.getLanguage(context);
             boolean langChanged = !TextUtils.equals(currentLang, mCurrentTipLang);
             if (!TextUtils.isEmpty(mCurrentTip) && !langChanged) {
-                tipView.setText("Tip: " + mCurrentTip);
+                tipView.setText("İpucu: " + mCurrentTip);
             } else {
                 // 语言变了或者还没拉过，重新拉一条。
-                tipView.setText("Tip: Loading...");
+                tipView.setText("İpucu: Yükleniyor...");
                 updateTipTextWithView(context, tipView);
             }
         }
@@ -69,7 +69,7 @@ public class HomePageTipHelper {
             }
             mCurrentTip = tip;
             mCurrentTipLang = requestLang;
-            String tipText = "Tip: " + mCurrentTip;
+            String tipText = "İpucu: " + mCurrentTip;
             targetView.setText(tipText);
 
             TextView currentTipView = sCurrentTipViewRef.get();

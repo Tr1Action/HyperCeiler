@@ -179,13 +179,7 @@ public class HomePageBannerManager {
     }
 
     private static BannerBean createWarningBannerIfNeeded(Context context) {
-        if (!SignUtils.isSignCheckPass(context)) {
-            return createWarningBanner(
-                "warning_sign",
-                context.getString(R.string.headtip_warn_sign_verification_failed),
-                null
-            );
-        }
+        // Kişisel fork: kendi anahtarımızla imzalandığı için imza uyarısı gösterilmez.
         if (isUnofficialRom(context)) {
             return createWarningBanner(
                 "warning_rom",
