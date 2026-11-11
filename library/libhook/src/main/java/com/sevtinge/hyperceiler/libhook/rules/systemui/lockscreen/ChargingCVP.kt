@@ -87,11 +87,17 @@ object ChargingCVP : BaseHook() {
 
 
         // 修改底部文本信息
-        findClassIfExists("com.miui.charge.ChargeUtils")?: findClass("com.android.keyguard.charge.ChargeUtils").findMethod { name("getChargingHintText"); paramCount(3) }
-            .createHook {
+        // Öncelik düzeltmesi: eski kod `a ?: b.findMethod{}` yazıldığı için
+        // com.miui.charge.ChargeUtils bulunduğunda (HyperOS 3) metoda değil sınıfa kanca atıyordu.
+        val chargeUtils = findClassIfExists("com.miui.charge.ChargeUtils")
+            ?: findClassIfExists("com.android.keyguard.charge.ChargeUtils")
+        chargeUtils?.declaredMethods
+            ?.filter { it.name == "getChargingHintText" && it.returnType != Void.TYPE }
+            ?.createHooks {
                 after { param ->
                     param.result = param.result?.let {
-                        "${getTemp()}$it\n${getCVP()}"
+                        val extra = getCVP()
+                        if (extra.isEmpty()) "${getTemp()}$it" else "${getTemp()}$it\n$extra"
                     }
                 }
             }
