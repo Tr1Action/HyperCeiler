@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_center_battery_design_capacity">Pil tasarım kapasitesi</string>
+    <string name="security_center_battery_full_capacity">Pil tam kapasitesi</string>
+    <string name="security_center_battery_capacity_format">%1$d mAh</string>
+    <string name="system_framework_guided_access_tile_more">Hızlı ayarlara \"Kılavuzlu Erişim\" kutusu ekle</string>
+    <string name="system_framework_guided_access_block_dialog">Sabitleme penceresini engelle</string>
+    <string name="system_framework_guided_access_block_dialog_more">Pencereleri engellemek beklenmedik sorunlara yol açabilir</string>
+    <string name="system_framework_guided_access_exit_lockscreen">Sabitleme kalkınca kilit ekranına git</string>
+    <string name="system_framework_guided_access_exit_lockscreen_more">Sabitleme modundan çıkınca kilit ekranına geç</string>
+    <string name="wallet">Mi Cüzdan</string>
+    <string name="wallet_disable_splash_ad">Açılış reklamlarını kaldır</string>
+    <string name="wallet_disable_splash_ad_desc">Açılış ekranını atla ve reklam isteklerini engelle</string>
+    <string name="aicr">Xiaomi Yapay Zekâ Motoru</string>
+    <string name="xmsf">Xiaomi Hizmet Çerçevesi</string>
+    <string name="xmsf_unlock_foucs_app_sign_white_list">Odak bildirimi beyaz liste imza doğrulamasını kaldır</string>
+    <string name="home_share_apk_preparing">Dosya hazırlanıyor…</string>
+    <string name="home_share_apk_preparing_split">Bölünmüş APK\'lar paketleniyor (%1$d dosya)…</string>
+    <string name="home_share_apk_failed">Paylaşılamadı</string>
+    <string name="home_share_apk_prepare_failed">Dosya hazırlanamadı</string>
+</resources>
