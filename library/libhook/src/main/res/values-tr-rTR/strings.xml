@@ -26,7 +26,7 @@
     <string name="tiles_snow_leopard_mode">S-Leo modu</string>
     <string name="tiles_taplus">Taplus</string>
     <string name="tiles_5g">5G ağı</string>
-    <string name="system_ui_statusbar_music_notification">Bildirim sözlerine odaklan</string>
+    <string name="system_ui_statusbar_music_notification">Odak bildirimi şarkı sözleri</string>
     <string name="open_by_default">Varsayılan olarak açık</string>
     <string name="security_center_aosp_app_info_label">AOSP uygulama bilgileri</string>
     <string name="security_center_aosp_app_info">AOSP uygulama bilgileri kısmını ekle</string>
