@@ -19,6 +19,11 @@ değişmeyecek; Vector kapsamı ve üstüne kurulum bozulmasın.
   SystemUIB'de kayıtlı değil ve `LockScreenSettings` onu HyperOS 3'te "desteklenmiyor" olarak
   işaretliyor. Yani kilit ekranı şarj bilgisi bu telefonda çalışmıyor; öne çıkarma.
 
+- **Kurt Lock (tr-9+):** ad değişti (`app_name`, `library_app_name`, Türkçe metinler ekleriyle).
+  İlk sekme `kurt/KurtPageFragment` + `KurtFragment` (`res/xml/prefs_kurt.xml`): 18 renkli kart,
+  mevcut ayar sayfalarına gider. Simgeler `res/drawable/kurt_ic_*.xml`, metinler `values/strings_kurt.xml`.
+  Sekmeler: Kurt Lock · Tümü · Ayarlar · Hakkında.
+
 ## Bilinen sorun
 - Kontrol merkezi bir kez soluk gri oldu (bulanıklık gitti). Kapsamlar tek başına bozmuyor
   (Sistem Çerçevesi + Sistem Arayüzü + eklenti ile normal). Neden, kullanıcının açtığı bir

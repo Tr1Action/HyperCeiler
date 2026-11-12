@@ -18,7 +18,7 @@
   ~ Copyright (C) 2023-2026 HyperCeiler Contributions
   -->
 <resources>
-    <string name="library_app_name" translatable="false">HyperCeiler</string>
+    <string name="library_app_name" translatable="false">Kurt Lock</string>
     <!--Introduction to Xposed Modules-->
     <string name="xposed_description">Make HyperOS Great Again!</string>
     <string name="miui_quick_settings_tiles_stock" translatable="false">reduce_brightness,vowifi1,vowifi2,cell,wifi,bt,airplane,autobrightness,mute,screenshot,flashlight,rotation,screenlock,dtmdtm,scanner,papermode,night,quietmode,batterysaver,uwb_shp,aitranslate,aisubtitles,freeformhang,vibrate,hotspot,sync,wirelesspower,nfc,dolbyatomssound,gps,edit,hearingassisttile,controls,wallet,inversion,saver,dark,onehanded,color_correction,user,dnd,taskmanager,settings,camerahandle,carsickness,voicetrans</string>

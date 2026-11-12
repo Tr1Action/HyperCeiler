@@ -28,26 +28,26 @@
     <string name="hook_diagnostics_history">Önceki oturum kayıtları</string>
     <string name="hook_diagnostics_refresh_hint">Önce özelliği kullanın, sonra en son etkinlik kayıtlarını okuyun</string>
     <string name="hook_diagnostics_export_hint">Sorun bildirirken raporu ve sorunu tekrarlama adımlarını gönderin</string>
-    <string name="headtip_warn_framework_service_error">HyperCeiler, XposedService\'ten geçerli çerçeve bilgisini okuyamadı. Güvenlik için modül özellikleri kapatıldı. Ayrıntılar için dokunun.</string>
-    <string name="homepage_unsupported_version_message">Geçerli sistem sürümü HyperCeiler\'ın yerleşik uyum listesinde yok.\n\n%1$s\n\nBu sürümün desteklediği sistem sürümleri:\n%2$s\n\nBilinmeyen bir sistem ortamında çalışmamak için HyperCeiler 30 saniye sonra kendiliğinden kapanacak.</string>
+    <string name="headtip_warn_framework_service_error">Kurt Lock, XposedService\'ten geçerli çerçeve bilgisini okuyamadı. Güvenlik için modül özellikleri kapatıldı. Ayrıntılar için dokunun.</string>
+    <string name="homepage_unsupported_version_message">Geçerli sistem sürümü Kurt Lock\'un yerleşik uyum listesinde yok.\n\n%1$s\n\nBu sürümün desteklediği sistem sürümleri:\n%2$s\n\nBilinmeyen bir sistem ortamında çalışmamak için Kurt Lock 30 saniye sonra kendiliğinden kapanacak.</string>
     <string name="homepage_unsupported_version_current">Geçerli sürüm: Android SDK %1$d - HyperOS %2$s</string>
     <string name="load_failed">Yüklenemedi.</string>
     <string name="log_level_general">Genel kayıtlar</string>
     <string name="log_level_detailed">Ayrıntılı kayıtlar</string>
     <string name="help_framework_warning_title">Geçerli çerçeve uyumluluğu</string>
     <string name="help_framework_warning_unknown_framework">Geçerli çerçeve</string>
-    <string name="help_framework_warning_card_compatible">Geçerli çerçeve HyperCeiler\'ın çalışma gereksinimlerini karşılıyor. Anormal bir Hook yüklemesi algılanmadı.</string>
-    <string name="help_framework_warning_card_incompatible">Geçerli çerçeve HyperCeiler\'ın çalışma gereksinimlerini karşılamıyor. Hook yüklemesi durduruldu. Lütfen uyumlu başka bir çerçeveye geçip yeniden deneyin.</string>
+    <string name="help_framework_warning_card_compatible">Geçerli çerçeve Kurt Lock\'un çalışma gereksinimlerini karşılıyor. Anormal bir Hook yüklemesi algılanmadı.</string>
+    <string name="help_framework_warning_card_incompatible">Geçerli çerçeve Kurt Lock\'un çalışma gereksinimlerini karşılamıyor. Hook yüklemesi durduruldu. Lütfen uyumlu başka bir çerçeveye geçip yeniden deneyin.</string>
     <string name="help_framework_warning_card_service_error">Geçerli çerçeve bilgisi XposedService\'ten okunamadı. Güvenlik için Hook yüklemesi durduruldu. Lütfen çerçeve durumunu kontrol edip yeniden deneyin.</string>
-    <string name="help_framework_warning_card_pending">HyperCeiler henüz XposedService\'ten geçerli çerçeve bilgisini okumadı, bu yüzden uyumluluk şimdilik doğrulanamıyor.</string>
+    <string name="help_framework_warning_card_pending">Kurt Lock henüz XposedService\'ten geçerli çerçeve bilgisini okumadı, bu yüzden uyumluluk şimdilik doğrulanamıyor.</string>
     <string name="help_framework_warning_section_framework_version">Geçerli çerçeve sürümü:</string>
     <string name="help_framework_warning_section_banner_reason">Ana sayfada neden uyarı görünüyor?</string>
-    <string name="help_framework_warning_banner_reason">Ana sayfa uyarısı yalnızca HyperCeiler geçerli çerçevenin en düşük çalışma gereksinimlerini karşılamadığını ya da XposedService\'in çerçeve bilgisini düzgün döndüremediğini algıladığında görünür. Anormal Hook yüklemesinin yol açacağı kararsızlığı önlemek için HyperCeiler aynı anda Hook yüklemeyi de durdurur.</string>
+    <string name="help_framework_warning_banner_reason">Ana sayfa uyarısı yalnızca Kurt Lock geçerli çerçevenin en düşük çalışma gereksinimlerini karşılamadığını ya da XposedService\'in çerçeve bilgisini düzgün döndüremediğini algıladığında görünür. Anormal Hook yüklemesinin yol açacağı kararsızlığı önlemek için Kurt Lock aynı anda Hook yüklemeyi de durdurur.</string>
     <string name="help_framework_warning_version_unavailable">Geçerli çerçeve sürüm bilgisi XposedService\'ten okunamadı.</string>
     <string name="log_menu_filter">Kayıtları filtrele</string>
     <string name="log_empty_no_logs">Henüz kayıt yok</string>
     <string name="log_empty_no_results">Eşleşen kayıt bulunamadı</string>
     <string name="log_empty_root_required">Kayıtları yüklemek için Root izni verin ve uygulamayı yeniden başlatın</string>
     <string name="tos_update_title">Kullanıcı Sözleşmesi ve Gizlilik Politikası</string>
-    <string name="tos_update_desc">Kullanıcı Sözleşmemizi ve/veya Gizlilik Politikamızı yakın zamanda güncelledik. Lütfen inceleyin.\nHyperCeiler\'ı kullanmaya devam ederek <annotation key="protocol">Kullanıcı Sözleşmesi</annotation> ve <annotation key="privacy">Gizlilik Politikası</annotation> koşullarını kabul etmiş olursunuz.</string>
+    <string name="tos_update_desc">Kullanıcı Sözleşmemizi ve/veya Gizlilik Politikamızı yakın zamanda güncelledik. Lütfen inceleyin.\nKurt Lock\'u kullanmaya devam ederek <annotation key="protocol">Kullanıcı Sözleşmesi</annotation> ve <annotation key="privacy">Gizlilik Politikası</annotation> koşullarını kabul etmiş olursunuz.</string>
 </resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <Preference
+            android:selectable="false"
+            android:summary="@string/kurt_intro" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kurt_cat_lock">
+        <Preference
+            android:key="kurt_entry_lock"
+            android:icon="@drawable/kurt_ic_lock"
+            android:title="@string/kurt_lock"
+            android:summary="@string/kurt_lock_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.LockScreenSettings" />
+        <Preference
+            android:key="kurt_entry_statusbar"
+            android:icon="@drawable/kurt_ic_statusbar"
+            android:title="@string/kurt_statusbar"
+            android:summary="@string/kurt_statusbar_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.StatusBarSettings" />
+        <Preference
+            android:key="kurt_entry_clock"
+            android:icon="@drawable/kurt_ic_clock"
+            android:title="@string/kurt_clock"
+            android:summary="@string/kurt_clock_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.NewClockIndicatorSettings" />
+        <Preference
+            android:key="kurt_entry_speed"
+            android:icon="@drawable/kurt_ic_speed"
+            android:title="@string/kurt_speed"
+            android:summary="@string/kurt_speed_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.NetworkSpeedIndicatorSettings" />
+        <Preference
+            android:key="kurt_entry_battery"
+            android:icon="@drawable/kurt_ic_battery"
+            android:title="@string/kurt_battery"
+            android:summary="@string/kurt_battery_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.BatteryDetailIndicatorSettings" />
+        <Preference
+            android:key="kurt_entry_icons"
+            android:icon="@drawable/kurt_ic_icons"
+            android:title="@string/kurt_icons"
+            android:summary="@string/kurt_icons_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.IconManageNewSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kurt_cat_cc">
+        <Preference
+            android:key="kurt_entry_control"
+            android:icon="@drawable/kurt_ic_control"
+            android:title="@string/kurt_cc"
+            android:summary="@string/kurt_cc_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.ControlCenterSettings" />
+        <Preference
+            android:key="kurt_entry_nav"
+            android:icon="@drawable/kurt_ic_nav"
+            android:title="@string/kurt_nav"
+            android:summary="@string/kurt_nav_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.NavigationSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kurt_cat_home">
+        <Preference
+            android:key="kurt_entry_home"
+            android:icon="@drawable/kurt_ic_home"
+            android:title="@string/kurt_layout"
+            android:summary="@string/kurt_layout_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeLayoutSettings" />
+        <Preference
+            android:key="kurt_entry_dock"
+            android:icon="@drawable/kurt_ic_dock"
+            android:title="@string/kurt_dock"
+            android:summary="@string/kurt_dock_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeDockSettings" />
+        <Preference
+            android:key="kurt_entry_folder"
+            android:icon="@drawable/kurt_ic_folder"
+            android:title="@string/kurt_folder"
+            android:summary="@string/kurt_folder_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeFolderSettings" />
+        <Preference
+            android:key="kurt_entry_title"
+            android:icon="@drawable/kurt_ic_title"
+            android:title="@string/kurt_title"
+            android:summary="@string/kurt_title_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeTitleSettings" />
+        <Preference
+            android:key="kurt_entry_recent"
+            android:icon="@drawable/kurt_ic_recent"
+            android:title="@string/kurt_recent"
+            android:summary="@string/kurt_recent_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeRecentSettings" />
+        <Preference
+            android:key="kurt_entry_gesture"
+            android:icon="@drawable/kurt_ic_gesture"
+            android:title="@string/kurt_gesture"
+            android:summary="@string/kurt_gesture_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeGestureSettings" />
+        <Preference
+            android:key="kurt_entry_anim"
+            android:icon="@drawable/kurt_ic_anim"
+            android:title="@string/kurt_anim"
+            android:summary="@string/kurt_anim_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.home.HomeAnimationSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kurt_cat_system">
+        <Preference
+            android:key="kurt_entry_sound"
+            android:icon="@drawable/kurt_ic_sound"
+            android:title="@string/kurt_sound"
+            android:summary="@string/kurt_sound_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.VolumeSettings" />
+        <Preference
+            android:key="kurt_entry_window"
+            android:icon="@drawable/kurt_ic_window"
+            android:title="@string/kurt_window"
+            android:summary="@string/kurt_window_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.FreeFormSettings" />
+        <Preference
+            android:key="kurt_entry_display"
+            android:icon="@drawable/kurt_ic_display"
+            android:title="@string/kurt_display"
+            android:summary="@string/kurt_display_desc"
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.DisplaySettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kurt_cat_more">
+        <Preference
+            android:icon="@drawable/kurt_ic_other"
+            android:selectable="false"
+            android:title="@string/navigation_all_title"
+            android:summary="@string/kurt_more_desc" />
+    </PreferenceCategory>
+</PreferenceScreen>

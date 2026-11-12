@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_kurt_title" translatable="false">Kurt Lock</string>
+    <string name="navigation_all_title" translatable="false">Tümü</string>
+
+    <string name="kurt_intro" translatable="false">Bir karta dokun, ayarını aç, sonra sağ üstteki yeniden başlat düğmesiyle uygula. Ayarları teker teker açmak, bir sorun çıkınca nedenini bulmayı kolaylaştırır.</string>
+
+    <string name="kurt_cat_lock" translatable="false">Kilit ekranı ve durum çubuğu</string>
+    <string name="kurt_lock" translatable="false">Kilit ekranı</string>
+    <string name="kurt_lock_desc" translatable="false">Çift dokunarak kilitleme, karışık PIN, kilit ekranı düğmeleri</string>
+    <string name="kurt_statusbar" translatable="false">Durum çubuğu</string>
+    <string name="kurt_statusbar_desc" translatable="false">Tüm durum çubuğu ayarları, çift dokunarak ekranı kapatma</string>
+    <string name="kurt_clock" translatable="false">Saat</string>
+    <string name="kurt_clock_desc" translatable="false">Saniye, tarih, saat biçimi ve yazı boyutu</string>
+    <string name="kurt_speed" translatable="false">Ağ hızı</string>
+    <string name="kurt_speed_desc" translatable="false">İndirme ve yükleme hızı göstergesi</string>
+    <string name="kurt_battery" translatable="false">Pil bilgisi</string>
+    <string name="kurt_battery_desc" translatable="false">Durum çubuğunda akım, güç ve sıcaklık</string>
+    <string name="kurt_icons" translatable="false">Durum simgeleri</string>
+    <string name="kurt_icons_desc" translatable="false">Hangi simgelerin görüneceğini seç</string>
+
+    <string name="kurt_cat_cc" translatable="false">Kontrol merkezi ve gezinme</string>
+    <string name="kurt_cc" translatable="false">Kontrol merkezi ve bildirimler</string>
+    <string name="kurt_cc_desc" translatable="false">Kutular, medya kartı, bildirim paneli. Bulanıklık ve doku ayarlarını dikkatli aç</string>
+    <string name="kurt_nav" translatable="false">Hareket çizgisi</string>
+    <string name="kurt_nav_desc" translatable="false">Çizginin boyutu, rengi ve gizlenmesi</string>
+
+    <string name="kurt_cat_home" translatable="false">Ana ekran</string>
+    <string name="kurt_layout" translatable="false">Düzen</string>
+    <string name="kurt_layout_desc" translatable="false">Satır ve sütun sayısı, kenar boşlukları, arama çubuğu</string>
+    <string name="kurt_dock" translatable="false">Dock</string>
+    <string name="kurt_dock_desc" translatable="false">Arka plan, yükseklik, simge sayısı</string>
+    <string name="kurt_folder" translatable="false">Klasörler</string>
+    <string name="kurt_folder_desc" translatable="false">Sütun sayısı, bulanıklık, açılma animasyonu</string>
+    <string name="kurt_title" translatable="false">Simgeler ve adlar</string>
+    <string name="kurt_title_desc" translatable="false">Simge boyutu, uygulama adları, bildirim noktaları</string>
+    <string name="kurt_recent" translatable="false">Son uygulamalar</string>
+    <string name="kurt_recent_desc" translatable="false">Kart görünümü, temizle düğmesi, bellek bilgisi</string>
+    <string name="kurt_gesture" translatable="false">Hareketler</string>
+    <string name="kurt_gesture_desc" translatable="false">Çift dokunma, kaydırma ve sallama ile istediğin eylem</string>
+    <string name="kurt_anim" translatable="false">Animasyonlar</string>
+    <string name="kurt_anim_desc" translatable="false">Uygulama açma ve kapama hızı</string>
+
+    <string name="kurt_cat_system" translatable="false">Ses ve sistem</string>
+    <string name="kurt_sound" translatable="false">Ses</string>
+    <string name="kurt_sound_desc" translatable="false">Daha ince ses kademeleri, yüksek ses uyarısı, varsayılan ses</string>
+    <string name="kurt_window" translatable="false">Yüzen pencereler</string>
+    <string name="kurt_window_desc" translatable="false">Serbest pencere sayısı ve davranışı</string>
+    <string name="kurt_display" translatable="false">Ekran</string>
+    <string name="kurt_display_desc" translatable="false">Ekran ve bildirim davranışları</string>
+
+    <string name="kurt_cat_more" translatable="false">Daha fazlası</string>
+    <string name="kurt_more_desc" translatable="false">Yüzlerce ayrıntılı ayar alttaki "Tümü" sekmesinde, uygulamalara göre sıralı</string>
+</resources>

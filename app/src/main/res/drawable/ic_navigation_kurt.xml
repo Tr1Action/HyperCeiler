@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <vector android:width="22dp" android:height="22dp" android:viewportWidth="1024" android:viewportHeight="1024">
+            <path android:fillColor="@color/navigation_icon_dark" android:pathData="M250,160 H380 A90,90 0 0 1 470,250 V380 A90,90 0 0 1 380,470 H250 A90,90 0 0 1 160,380 V250 A90,90 0 0 1 250,160 Z M644,160 H774 A90,90 0 0 1 864,250 V380 A90,90 0 0 1 774,470 H644 A90,90 0 0 1 554,380 V250 A90,90 0 0 1 644,160 Z M250,554 H380 A90,90 0 0 1 470,644 V774 A90,90 0 0 1 380,864 H250 A90,90 0 0 1 160,774 V644 A90,90 0 0 1 250,554 Z M709,554 H709 A155,155 0 0 1 864,709 V709 A155,155 0 0 1 709,864 H709 A155,155 0 0 1 554,709 V709 A155,155 0 0 1 709,554 Z"/>
+        </vector>
+    </item>
+    <item android:state_selected="true">
+        <vector android:width="22dp" android:height="22dp" android:viewportWidth="1024" android:viewportHeight="1024">
+            <path android:fillColor="@color/navigation_icon_dark" android:pathData="M250,160 H380 A90,90 0 0 1 470,250 V380 A90,90 0 0 1 380,470 H250 A90,90 0 0 1 160,380 V250 A90,90 0 0 1 250,160 Z M644,160 H774 A90,90 0 0 1 864,250 V380 A90,90 0 0 1 774,470 H644 A90,90 0 0 1 554,380 V250 A90,90 0 0 1 644,160 Z M250,554 H380 A90,90 0 0 1 470,644 V774 A90,90 0 0 1 380,864 H250 A90,90 0 0 1 160,774 V644 A90,90 0 0 1 250,554 Z M709,554 H709 A155,155 0 0 1 864,709 V709 A155,155 0 0 1 709,864 H709 A155,155 0 0 1 554,709 V709 A155,155 0 0 1 709,554 Z"/>
+        </vector>
+    </item>
+    <item>
+        <vector android:width="22dp" android:height="22dp" android:viewportWidth="1024" android:viewportHeight="1024">
+            <path android:fillColor="@color/navigation_icon_dark" android:pathData="M250,160 H380 A90,90 0 0 1 470,250 V380 A90,90 0 0 1 380,470 H250 A90,90 0 0 1 160,380 V250 A90,90 0 0 1 250,160 Z M644,160 H774 A90,90 0 0 1 864,250 V380 A90,90 0 0 1 774,470 H644 A90,90 0 0 1 554,380 V250 A90,90 0 0 1 644,160 Z M250,554 H380 A90,90 0 0 1 470,644 V774 A90,90 0 0 1 380,864 H250 A90,90 0 0 1 160,774 V644 A90,90 0 0 1 250,554 Z M709,554 H709 A155,155 0 0 1 864,709 V709 A155,155 0 0 1 709,864 H709 A155,155 0 0 1 554,709 V709 A155,155 0 0 1 709,554 Z"/>
+        </vector>
+    </item>
+</selector>

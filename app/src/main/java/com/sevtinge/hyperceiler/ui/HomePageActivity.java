@@ -32,6 +32,8 @@ import com.sevtinge.hyperceiler.dashboard.base.ActivityCallback;
 import com.sevtinge.hyperceiler.home.HomePageFragment;
 import com.sevtinge.hyperceiler.home.IconTitleLoader;
 import com.sevtinge.hyperceiler.home.adapter.HomeContentAdapter;
+import com.sevtinge.hyperceiler.kurt.KurtFragment;
+import com.sevtinge.hyperceiler.kurt.KurtPageFragment;
 import com.sevtinge.hyperceiler.home.manager.PageDecorator;
 import com.sevtinge.hyperceiler.home.task.AppInitializer;
 import com.sevtinge.hyperceiler.log.LogManager;
@@ -134,12 +136,13 @@ public class HomePageActivity extends AppCompatActivity
 
     private void rebuildContentPages() {
         mContentAdapter = new HomeContentAdapter(this);
+        mContentAdapter.addFragment(new KurtPageFragment());
         mContentAdapter.addFragment(new HomePageFragment());
         mContentAdapter.addFragment(new SettingsPageFragment());
         mContentAdapter.addFragment(new AboutPageFragment());
 
         mViewPager.setAdapter(mContentAdapter);
-        mViewPager.setOffscreenPageLimit(3);
+        mViewPager.setOffscreenPageLimit(4);
     }
 
     public void reloadPagesForLanguageChange() {
@@ -173,7 +176,8 @@ public class HomePageActivity extends AppCompatActivity
 
     @Override
     public boolean onPreferenceStartFragment(@NonNull PreferenceFragmentCompat caller, @NonNull Preference pref) {
-        if (caller instanceof SettingsFragment || caller instanceof AboutSettingsFragment) {
+        if (caller instanceof SettingsFragment || caller instanceof AboutSettingsFragment
+            || caller instanceof KurtFragment) {
             onStartSubSettingsForArguments(this, pref, false);
             return true;
         }

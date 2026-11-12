@@ -25,7 +25,7 @@
     <string name="search_result_not_available">Bu özellik bu cihazda desteklenmiyor ya da bazı seçeneklerin altında gizli olabilir</string>
     <string name="search_apps_hint">%d uygulamada ara</string>
     <string name="load_apps_failed">Uygulama listesi yüklenemedi</string>
-    <string name="unsupported_func_tips">Geçerli hedef kapsamın kaynağı resmî Xiaomi olmayabilir. Güvenlik nedeniyle bu kapsamın tüm işlevleri kapatıldı. Lütfen resmî Xiaomi\'nin yayımladığı uygulama paketine geçmeyi deneyin ya da \"HyperCeiler Ayarları - Geliştirici seçenekleri - Hata ayıklama modu\" bölümünden yüklenen sürümü belirtip yeniden deneyin.</string>
+    <string name="unsupported_func_tips">Geçerli hedef kapsamın kaynağı resmî Xiaomi olmayabilir. Güvenlik nedeniyle bu kapsamın tüm işlevleri kapatıldı. Lütfen resmî Xiaomi\'nin yayımladığı uygulama paketine geçmeyi deneyin ya da \"Kurt Lock Ayarları - Geliştirici seçenekleri - Hata ayıklama modu\" bölümünden yüklenen sürümü belirtip yeniden deneyin.</string>
     <string name="home_os4_unadapted_tips">Gri görünen özellikler henüz uyarlanmadı; uyarlandıktan sonra kullanılabilir olacak.</string>
     <string name="debug_mode_running">Geçerli hedef kapsam hata ayıklama modunda. Gerekli değilse lütfen kapatın.\nGeçerli uygulama sürümü: %1$s\nSeçilen hedef sürüm: %2$s\nBaşarıyla kancalanan: %3$s</string>
     <string name="debug_mode_switch">Hata ayıklama sürümü</string>
@@ -40,8 +40,8 @@
     <string name="home_recent_hide_text_summary">Son uygulama kartı başlıklarındaki uygulama adlarını gizle; launcher yeniden başlatılınca etkin olur</string>
     <string name="new_cta_app_all_purpose_welcome">Kullanıcı Sözleşmesi ve Gizlilik Politikası</string>
     <string name="debug_info">Hata ayıklama bilgisi alınamıyor.</string>
-    <string name="clear_app_properties_desc">HyperCeiler ile ilgili hizmetlerin Prop değerlerini sıfırlamak istediğinizden emin misiniz?</string>
-    <string name="clear_app_properties_success">HyperCeiler ile ilgili hizmetlerin Prop değerleri sıfırlandı</string>
+    <string name="clear_app_properties_desc">Kurt Lock ile ilgili hizmetlerin Prop değerlerini sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="clear_app_properties_success">Kurt Lock ile ilgili hizmetlerin Prop değerleri sıfırlandı</string>
     <string name="settings_scope">Kapsam</string>
     <string name="settings_scope_extra">Ek kapsam</string>
     <string name="settings_scope_sync">Kapsam eşitleme</string>
@@ -71,7 +71,7 @@
     <string name="development_tools">Hata ayıklama</string>
     <string name="development_system">Yönetici</string>
     <string name="development_cache">Önbellek ve kayıtlar</string>
-    <string name="development_clear_app_properties">HyperCeiler ile ilgili hizmetlerin Prop değerlerini sıfırla</string>
+    <string name="development_clear_app_properties">Kurt Lock ile ilgili hizmetlerin Prop değerlerini sıfırla</string>
     <string name="settings_hot_reload">İşlemi çalışırken yeniden yükle</string>
     <string name="settings_hot_reload_desc">Çerçeve kapsamındaki uygulamaları seçin ve o an enjekte edilmiş tüm işlemlerini çalışırken yeniden yükleyin. Xposed çerçevesi API 102 veya üstü gerekir.</string>
     <string name="settings_hot_reload_unsupported">Geçerli Xposed çerçevesinde çalışırken yeniden yükleme desteklenmiyor. libxposed API 102 veya üstü gerekir.</string>
@@ -135,7 +135,7 @@
     <string name="system_framework_core_patch_unloss_fingerprint_desc">Bazı paket yönetimi hizmetleri açıkken yeniden başlatmadan sonra parmak izlerinin sıfırlanması sorununu çözmeye yardımcı olabilir. Yalnızca bu sorundan etkilenen cihazlar içindir.</string>
     <string name="camera_cloud_watermark">Buluttan filigranı zorla</string>
     <string name="camera_cloud_watermark_desc">Yalnızca 6.2 ve üstü sürümlerde desteklenir. Xiaomi bulut sunucularından etkilenebilir.</string>
-    <string name="community_fuck_detection_desc">Geri bildirim verirken HyperCeiler\'ın algılanıp yüklenmesini engeller. Gereksiz sorun yaşamamak için, geri bildirimden önce sorunun sizden değil gerçekten sistemden kaynaklandığından emin olun.</string>
+    <string name="community_fuck_detection_desc">Geri bildirim verirken Kurt Lock\'un algılanıp yüklenmesini engeller. Gereksiz sorun yaşamamak için, geri bildirimden önce sorunun sizden değil gerçekten sistemden kaynaklandığından emin olun.</string>
     <string name="mms_im_old_device">Yeni cihaz olarak tanınmayı engelle</string>
     <string name="system_ui_lock_screen_blur_button_desc">Açıldığında kamera ve kısayol düğmesinin arka planı bulanıklaştırılır; pil tüketimini artırabilir.\nYalnızca varsayılan tema desteklenir.</string>
     <string name="system_ui_lock_screen_unlock_notification_restrict">Bildirim kısıtlamasını kaldır</string>

@@ -33,8 +33,8 @@
     <string name="provision_service_agreement">Koşulları okudum ve kabul ediyorum.</string>
     <string name="provision_service_name_download">İndirmeler</string>
     <string name="provision_congratulation_title">Kurulum tamamlandı</string>
-    <string name="provision_congratulation_label">HyperCeiler\'a hoş geldiniz</string>
-    <string name="provision_complete_text">HyperCeiler\'a gir</string>
+    <string name="provision_congratulation_label">Kurt Lock\'a hoş geldiniz</string>
+    <string name="provision_complete_text">Kurt Lock\'a gir</string>
     <string name="provision_back">Geri</string>
     <string name="provision_service_policy_download">&lt;Data&gt;&lt;a href=\"%1$s\"&gt;Thunder Gizlilik Politikası&lt;/a&gt; ile &lt;a href=\"%2$s\"&gt;Thunder Şirket Ağı Hizmet Kullanım Sözleşmesi&lt;/a&gt;&lt;/Data&gt;\'ni okuyun ve kabul edin&lt;/a&gt;&lt;/Data&gt;</string>
     <string name="provision_set_permission_later">Bu gerekli izinleri daha sonra da ayarlayabilirsiniz</string>
